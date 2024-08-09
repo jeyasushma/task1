@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeya Sushma's Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1f1f1f;
+            color: #ff5722;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        header a {
+            color: #ff5722;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1562562328-0ec4a4b9f644') center center / cover no-repeat;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            margin: 20px 0;
+            border-radius: 15px;
+            background: #1e1e1e;
+            position: relative;
+        }
+        section h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+        section p {
+            font-size: 1.3rem;
+        }
+        .project-item, .experience-item {
+            margin-bottom: 20px;
+        }
+        .project-item h3, .experience-item h3 {
+            font-size: 2.5rem;
+            color: #ff5722;
+        }
+        .project-item p, .experience-item p {
+            font-size: 1.2rem;
+        }
+        .project-item img, .experience-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .contact-info {
+            font-size: 1.3rem;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Jeya Sushma</h1>
+            <p>LinkedIn: <a href="https://linkedin.com/in/jeya-sushma-yerukala-b95402267" target="_blank">linkedin.com/in/jeya-sushma-yerukala-b95402267</a></p>
+            <p>Phone: (+91) 9398416320 ⋄ Email: <a href="mailto:jyerukal@gitam.in">jyerukal@gitam.in</a></p>
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section>
+        <h2>Education</h2>
+        <p><strong>Gitam Institute of Technology, Bangalore</strong> <br>
+        B.Tech. Computer Science and Engineering <br>
+        CGPA: 7.76/10 <br>
+        July 2021 - 2025</p>
+
+        <p><strong>Narayana Junior College</strong> <br>
+        12th Board Percentage: 75% <br>
+        March 2021</p>
+
+        <p><strong>BHASHYAM SCHOOL</strong> <br>
+        10th Board Percentage: 90.25% <br>
+        March 2019</p>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section>
+        <h2>Technical Skills</h2>
+        <p>Programming Languages: C, Java, Python</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Drain Water Management System</h3>
+            <p>Team Leader at Gitam Institute of Technology <br>
+            January 2024 - April 2024 <br>
+            Led a team of 5 to develop a comprehensive drain water management system. Implemented functional and non-functional modules to manage water drainage effectively. Utilized Agile methodologies to ensure timely delivery of project milestones.</p>
+            <img src="https://images.unsplash.com/photo-1590608819571-f730b42f35c6" alt="Drain Water Management System">
+        </div>
+        <div class="project-item">
+            <h3>Ice Cream Chat Bot</h3>
+            <p>Developer at Gitam Institute of Technology <br>
+            September 2023 - December 2023 <br>
+            Developed a cloud-based chatbot for an ice cream store to enhance customer interaction. Utilized cloud computing services to deploy and manage the chatbot. Integrated natural language processing for better customer query handling.</p>
+            <img src="https://images.unsplash.com/photo-1566800393-11f6457d464b" alt="Ice Cream Chat Bot">
+        </div>
+        <div class="project-item">
+            <h3>Image Detection Project</h3>
+            <p>Developer at Gitam Institute of Technology <br>
+            January 2024 - Present <br>
+            Currently working on an image detection project to identify and classify objects in images. Using machine learning algorithms and Python for developing the detection model. Exploring various image processing techniques to improve detection accuracy.</p>
+            <img src="https://images.unsplash.com/photo-1512042559030-0820f70e0218" alt="Image Detection Project">
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section>
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Salesforce</h3>
+            <p>Developer Intern <br>
+            May 2024 - June 2024 <br>
+            Developed and tested new features for Salesforce CRM applications. Collaborated with senior developers to optimize code and improve performance. Participated in code reviews and contributed to team meetings.</p>
+            <img src="https://images.unsplash.com/photo-1517430816045-df4b7de8d0e5" alt="Salesforce Experience">
+        </div>
+    </section>
+
+    <!-- Licenses & Certifications Section -->
+    <section>
+        <h2>Licenses & Certifications</h2>
+        <p>Salesforce Developer Virtual Internship, June 2024 - Smart Bridge</p>
+        <p>AI ML Virtual Internship, November 2023 - AICTE</p>
+        <p>Google for Android Developer Internship, November 2023 - AICTE</p>
+    </section>
+
+    <!-- Extra-Curricular Activities Section -->
+    <section>
+        <h2>Extra-Curricular Activities</h2>
+        <p>Painting</p>
+        <p>Volunteer for local community service initiative</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Jeya Sushma. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
